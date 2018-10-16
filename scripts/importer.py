@@ -5,5 +5,5 @@ amphib = dendropy.DnaCharacterMatrix.get(
     schema="phylip"
 )
 
-amphib.write_to_path("../data/plethodon.fa", schema="fasta")
+amphib.write_to_path("../data_output/plethodon.fa", schema="fasta")
 
